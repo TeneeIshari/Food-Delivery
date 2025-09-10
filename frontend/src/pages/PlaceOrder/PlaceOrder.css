@@ -1,0 +1,75 @@
+.place-order {
+    display: flex;
+    align-items: flex-start; /* fixed */
+    justify-content: space-between;
+    gap: 50px;
+    margin-top: 100px;
+    flex-wrap: wrap; /* helps on smaller screens */
+  }
+  
+  .place-order-left {
+    flex: 1;
+    min-width: 300px; /* ensures responsiveness */
+    max-width: 500px;
+  }
+  
+  .place-order-left .title {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 30px; /* reduced for better balance */
+  }
+  
+  .place-order-left input {
+    margin-bottom: 15px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #c5c5c5;
+    border-radius: 4px;
+    outline-color: tomato;
+    font-size: 14px;
+  }
+  
+  .place-order-left .multi-fields {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .place-order-right {
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+  }
+  
+  .cart-total {
+    border: 1px solid #c5c5c5;
+    padding: 20px;
+    border-radius: 8px;
+    background: #fafafa;
+  }
+  
+  .cart-total h2 {
+    margin-bottom: 20px;
+  }
+  
+  .cart-total-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+  }
+  
+  .place-order .cart-total button {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    background: tomato;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .place-order .cart-total button:hover {
+    background: #e64a19;
+  }  
